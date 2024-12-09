@@ -3,13 +3,19 @@ This explains the process of using K-Means clustering to detect and classify the
 
 ## Dataset
 The Iris dataset can be loaded from the sklearn.datasets module, and it contains the following columns:
-1.sepal length (cm)
-2.sepal width (cm)
-3.petal length (cm)
-4.petal width (cm)
-5.species (the true label of the species)
-6.Process Overview
 
+1.sepal length (cm)
+
+2.sepal width (cm)
+
+3.petal length (cm)
+
+4.petal width (cm)
+
+5.species (the true label of the species)
+
+
+## Process Overview
 ### Data Preprocessing:
 Load the Iris dataset using sklearn.
 Standardize the data if needed (e.g., using StandardScaler to ensure all features contribute equally to the distance metric).
